@@ -1,0 +1,74 @@
+=====================
+25.8.2022 17.25.36
+LimitedFunctionality
+System.AggregateException: One or more errors occurred. ---> System.Exception: Errors in 'C:\work\DateInEnvironmentVariableBugRepro\Properties\launchSettings.json' need to be corrected before applying changes. Error message:
+Expected string at 6:37 but got Date.
+   at Microsoft.VisualStudio.ProjectSystem.Debug.LaunchSettingsProvider.<GetSnapshotThrowIfErrorsAsync>d__96.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.ProjectSystem.Debug.LaunchSettingsProvider.<>c__DisplayClass88_0.<<AddOrUpdateProfileAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.Tasks.SequentialTaskExecutor.<>c__DisplayClass8_0.<<ExecuteTask>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.Tasks.SequentialTaskExecutor.<>c__DisplayClass8_0.<<ExecuteTask>g__JoinTaskAsync|1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.WslDebugging.Package.ProjectInitializerHandler.<CreateNonPersistedWslLaunchProfileAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.WslDebugging.Package.ProjectInitializerHandler.<>c__DisplayClass13_0.<<UpdateSubscriptionAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Shell.VsTaskLibraryHelper.<>c__DisplayClass32_0.<<StartOnIdle>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.WslDebugging.Package.ProjectInitializerHandler.<UpdateSubscriptionAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.VisualStudio.ProjectSystem.DataReceivingBlockSlim`1.<ProcessInputQueueAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Exception: Errors in 'C:\work\DateInEnvironmentVariableBugRepro\Properties\launchSettings.json' need to be corrected before applying changes. Error message:
+Expected string at 6:37 but got Date.
+   at Microsoft.VisualStudio.ProjectSystem.Debug.LaunchSettingsProvider.<GetSnapshotThrowIfErrorsAsync>d__96.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.ProjectSystem.Debug.LaunchSettingsProvider.<>c__DisplayClass88_0.<<AddOrUpdateProfileAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.Tasks.SequentialTaskExecutor.<>c__DisplayClass8_0.<<ExecuteTask>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.Tasks.SequentialTaskExecutor.<>c__DisplayClass8_0.<<ExecuteTask>g__JoinTaskAsync|1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.WslDebugging.Package.ProjectInitializerHandler.<CreateNonPersistedWslLaunchProfileAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.WslDebugging.Package.ProjectInitializerHandler.<>c__DisplayClass13_0.<<UpdateSubscriptionAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Shell.VsTaskLibraryHelper.<>c__DisplayClass32_0.<<StartOnIdle>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.WslDebugging.Package.ProjectInitializerHandler.<UpdateSubscriptionAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.VisualStudio.ProjectSystem.DataReceivingBlockSlim`1.<ProcessInputQueueAsync>d__5.MoveNext()<---
+
+===================

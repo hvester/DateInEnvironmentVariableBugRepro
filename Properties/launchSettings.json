@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DateInEnvironmentVariableBugRepro": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DATE": "2019-07-11T12:00:00"
+      }
+    }
+  }
+}
